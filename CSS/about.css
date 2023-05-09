@@ -1,0 +1,81 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Set default font family and color */
+    body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    }
+    
+    /* Style for header and navigation bar */
+    header {
+    background-color: #eee;
+    padding: 1rem;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav li {
+    margin-right: 1rem;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+    }
+    
+    nav a:hover {
+    color: #007bff;
+    }
+    
+    /* Style for main content */
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    }
+    
+    h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    }
+    
+    table th,
+    table td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    }
+    
+    table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    }
+    
+    /* Style for footer */
+    footer {
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    }
